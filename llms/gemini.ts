@@ -1,4 +1,4 @@
-// shared/llms/gemini.ts
+// llms/gemini.ts
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { LLMOptions, LLMResponse, LLMProviderClient } from "./types";
 import * as dotenv from 'dotenv';

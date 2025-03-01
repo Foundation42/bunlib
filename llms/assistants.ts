@@ -1,4 +1,4 @@
-// shared/llms/assistants.ts
+// llms/assistants.ts
 
 import { LLMConfig } from "./types";
 

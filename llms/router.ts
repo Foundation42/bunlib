@@ -1,4 +1,4 @@
-// shared/llms/router.ts
+// llms/router.ts
 import type { LLMConfig, LLMOptions, LLMResponse } from "./types";
 import { openAIClient } from "./openai";
 import { anthropicClient } from "./anthropic";

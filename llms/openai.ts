@@ -1,4 +1,4 @@
-// src/llms/openai.ts
+// llms/openai.ts
 import OpenAI from "openai";
 import type { LLMOptions, LLMResponse, LLMProviderClient } from "./types";
 import * as dotenv from 'dotenv';

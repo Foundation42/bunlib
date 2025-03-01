@@ -1,4 +1,4 @@
-// src/llms/mistral.ts
+// llms/mistral.ts
 import { Mistral } from '@mistralai/mistralai';
 import { LLMOptions, LLMResponse, LLMProviderClient } from "./types";
 import * as dotenv from 'dotenv';

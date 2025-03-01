@@ -1,4 +1,4 @@
-// src/llms/llmTypes.ts
+// llms/llmTypes.ts
 export type LLMProvider =
   | "openai"
   | "anthropic"

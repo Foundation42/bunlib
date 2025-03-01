@@ -1,4 +1,4 @@
-// shared/llms/vertex.ts
+// llms/vertex.ts
 import { VertexAI } from '@google-cloud/vertexai';
 import type { LLMOptions, LLMResponse, LLMProviderClient } from "./types";
 import * as dotenv from 'dotenv';

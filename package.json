@@ -1,0 +1,39 @@
+{
+    "name": "bunlib",
+    "version": "0.1.0",
+    "description": "Utility libraries for Bun applications",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "type": "module",
+    "exports": {
+        ".": "./index.js",
+        "./llms/ollama": "./llms/ollama.ts",
+        "./llms/types": "./llms/types.ts"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.39.0",
+        "@google-cloud/vertexai": "^1.9.3",
+        "@google/generative-ai": "^0.22.0",
+        "@mistralai/mistralai": "^1.5.0",
+        "dotenv": "^16.3.1",
+        "openai": "^4.86.1"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "engines": {
+        "bun": ">=1.2.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Foundation42/bunlib.git"
+    },
+    "keywords": [
+        "bun",
+        "typescript",
+        "ollama",
+        "llm"
+    ],
+    "author": "Foundation42",
+    "license": "MIT"
+}
